@@ -77,4 +77,24 @@ let dataFormat000 = {
     } 
     // ... nbrLimitSwitch
   },
+
+  fieldData : {
+    fieldId : {
+      coordinates : {
+        positionId : {
+
+        }
+        // ... nbr of points
+      }
+    }
+  },
+
+  adminInField : {
+    adminId : {
+      position : {
+        
+      }
+    }
+    // ... admin nbr
+  }
 }
