@@ -1,7 +1,13 @@
 var dataFormat003 = {
   hubMotor : { 
     hubMotorId : {
-
+      position : {
+        timeStamp : {
+          x : "String",
+          y : "String",
+          z : "String",
+        }
+      },
     }
     // nbrHubMotor
   }, 
