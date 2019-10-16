@@ -1,0 +1,9 @@
+Scope0
+-Normalize Pixel Arrays
+-Run Pixels Arrays through segmentation with recurrent component (tbd)
+-Convert probabilty output to 2-D mask(s)
+-Compare mask (prob) outputs to mask (prob) outputs of previous frames using frame ids
+-Associate each mask output to type/subtype/state
+
+Scope1
+-Apply 3-D reconstruction models to obtain CAD
