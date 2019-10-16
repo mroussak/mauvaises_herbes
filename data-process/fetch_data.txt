@@ -1,0 +1,10 @@
+- Convert image bit data to RGB format (opencv, PIL)
+- Resize image to model input format
+- GetConstant CameraOffset
+- GetVariable GPS
+- GetVariable Correction
+- GetVariable GyroscopeAngles
+- GetVariable MotorPositionsOffsets
+- GetBoolean LimitSwitch
+- GetVariable fieldData
+- GetVariable AdminInFieldPosition
