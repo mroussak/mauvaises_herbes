@@ -50,9 +50,16 @@ let dataFormat000 = {
   },
 
   location : {
-    x : "Number",
-    y : "Number",
-    y : "Number",
+    GPS : {
+      x : "Number",
+      y : "Number",
+      y : "Number",
+    },
+    Correction : {
+      x : "Number",
+      y : "Number",
+      y : "Number",
+    },
   },
 
   angle : {
