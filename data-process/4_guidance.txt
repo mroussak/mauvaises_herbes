@@ -1,0 +1,42 @@
+Application 
+- Detect emergency stop
+  - Entry : 
+    - Detected Warnings (Humains, Brother, Admin, Animals)
+  - Process : 
+    - If we see an humain in a range of x Meter, stop the machine.
+  - Output :
+    - Boolean Stop
+
+- Detect anomaly
+  - Entry :
+    - Detected Machine Part state (action)
+    - Detected Machine Part suppose action
+  - Process : 
+    - If we see part that is not acting according to supposed action, stop considering that parts
+    - We need to adjust tolerance 
+  - Output : 
+    - Condemn machine parts
+
+- Find optimal path for tractor
+  - Entry :  
+    - Fields Limit absolute Coordinates from satelite
+    - Detected crop lanes from CV
+    - Detected fields limit form CV  
+  - Process :
+    tbd
+  - Output : 
+    - Optimal tractor position in time
+
+- Define optimal path for tools to attack weeds and speed of tractor
+  - Entry :
+   - Position of Machine parts
+   - Position of robots
+   - Position of Crops
+   - Position of Weeds
+   - Position of Rocks 
+   - Position of Leafs  
+  - Process :
+    tbd
+  - Output : 
+    - Optimal tools positions and state in time 
+    - Speed of tractor

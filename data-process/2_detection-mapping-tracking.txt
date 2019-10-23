@@ -1,0 +1,9 @@
+Application 
+- Normalize Pixel Arrays
+- Predict probability for each pixel
+- Convert probabilty output to 2-D mask(s) 
+- Adapt tresholds with detected crop lane from previous frames
+- Adapt tresholds with detected objects from previous frames
+- Associate each mask output to type/subtype/state and ids from previous detected objects
+- Match absolute GPS coordinates with combinaison of ComputerVision, MachinePositioningSystem + Aura and Guidance
+ 
